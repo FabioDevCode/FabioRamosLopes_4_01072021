@@ -8,9 +8,10 @@
     <link rel="shortcut icon" type="image/png" href="./img/favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="preload"  type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" href="style2.css">
     
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -32,105 +33,94 @@
 </head>
 
 <body>
-	<!-- bloc-0 -->
-	<header class="bloc bgc-white l-bloc " id="bloc-0">
-		<div class="container bloc-sm">
 
-			<nav class="navbar row">
-				<div class="navbar-header">
-					<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-					<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-					<ul class="site-navigation nav navbar-nav">
-						<li>
-							<a href="index.html">Accueil</a>
-						</li>
-						<li>
-						</li>
-						<li>
-							<a href="page2.html">page2 &gt;</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!-- bloc-0 END -->
+	<header>
+        <div class="header_container">
+    
+            <div class="header_container__icon">
+                <a href="index.html"><img class="header_img" src="img/la-chouette-agence.png" alt="Logo, la chouette agence"/></a>
+            </div>
 
-	<!-- bloc-1-presentation -->
-	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
-		<div class="container bloc-lg">
-			<div class="row tight-width-whitespace">
-				<div class="col-sm-12">
-					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web paris, création logo paris" />
-					<h1 class="text-center hero-bloc-text tc-white ">
-						La chouette agence.
-					</h1>
-					<div class="text-center">
-						<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
-					</div>
+            <nav>
+				<a href="index.html">Accueil</a>
+
+                <a href="page2.html">Contact</a>
+            </nav>
+
+        </div> 
+    </header>
+
+	<!-- Bannière -->
+	<div class="bg-banniere b-parallax">
+		
+		<div id="herobannier">
+			
+			<div class="herobannier_elements">
+					
+				<img src="img/logo.png" class="" alt="La chouette agence, agence web création logo paris" />
+				
+				<h1>La chouette agence.</h1>
+				
+				<div>
+					<a href="page2.html">CONTACT</a>
 				</div>
+			
 			</div>
+		
 		</div>
+
 	</div>
-	<!-- bloc-1-presentation END -->
 
-	<!-- bloc-2-services -->
-	<div class="bloc bgc-white l-bloc" id="bloc-2-services">
-		<div class="container bloc-md">
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
-				</div>
-			</div>
-			<div class="row voffset-lg med-width-whitespace">
-				<div class="col-sm-4">
-					<div class="text-center">
-						<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-					</div>
-					<h3 class="mg-md text-center">
-						Web design
-					</h3>
-					<p class="text-center ">
-						Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<div class="text-center">
-						<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-					</div>
-					<h3 class="mg-md text-center">
-						&nbsp;Stratégie
-					</h3>
-					<p class="text-center ">
-						Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<div class="text-center">
-						<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-					</div>
-					<h3 class="mg-md text-center">
-						Illustrations
-					</h3>
-					<p class="text-center ">
-						Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
-					</p>
-				</div>
-			</div>
-			<div class="row voffset-lg voffset">
-				<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-					<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.png" />
+	<!-- Services -->
+	<section id="services">
+        <h2>La chouette agence est une agence de web design 
+			qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
 
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="services_lesservices">
+
+            <div class="lesservices">
+                <span class="et-icon-browser icons icon-lg"></span>
+                <h3>WEB DESIGN</h3>
+                <p>Que vous ayez un site web qui a besoin d’un 
+                    rafraîchissement ou que vous partiez de zéro, 
+                    laissez-nous vous réaliser un design dont vous serez fier.</p>
+            </div>
+
+            <div class="lesservices">
+                <span class="et-icon-presentation icons icon-lg"></span>
+                <h3>STRATÉGIE</h3>
+                <p>Plutôt que de suggérer des designs à la mode, 
+                    nous travaillerons avec vous pour comprendre vos objectifs 
+                    commerciaux afin de vous proposer le meilleur design possible.</p>
+            </div>
+
+            <div class="lesservices">
+                <span class="et-icon-edit icons icon-lg"></span>
+                <h3>ILLUSTRATIONS</h3>
+                <p>Un bon design n'est rien sans de bonnes illustrations. 
+                    Laissez faire notre équipe de graphistes talentueux 
+                    pour donner à vos pages une touche finale d'élégance.</p>
+            </div>
+
+        </div>
+
+        <figure>
+
+            <blockquote>
+                "La chouette agence est une excellente agence web ! Les
+                web designers ont réussi à capturer l'essence de notre
+                entreprise et à l'intégrer à notre site. Cela nous a aidé à
+                doubler nos ventes en ligne à Lyon."
+            </blockquote>
+
+            <figcaption>
+                Maxime GUIBARD, PDG de À vos fourchettes
+            </figcaption>
+
+        </figure>
+
+    </section>
+
 	<!-- bloc-2-services END -->
 
 	<!-- bloc-3-what-i-do -->
