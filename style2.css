@@ -1,10 +1,12 @@
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-    background-position: top center no-repeat;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+    background-repeat: no-repeat;
 }
 
 .b-parallax {

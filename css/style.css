@@ -309,7 +309,8 @@ footer {
     align-items: center;
 }
 
-footer h4 {
+footer h5 {
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,7 +344,8 @@ footer h4 {
     transform: scale(1.1);
 }
 
-.reseaux_icons h5 {
+.reseaux_icons h6 {
+    font-size: 15px;
     font-weight: 600;
     margin-top: 15px;
 }
@@ -440,3 +442,4 @@ section.contact_banniere {
 }
 
 /*------ RESPONSIVE DESIGN ------*/
+
