@@ -290,9 +290,8 @@ blockquote {
 }
 
 .portfolio_bloc_projet img {
-    width: 100%;
-    min-width: 350px;
-    min-height: 350px;
+    width: 350px;
+    height: 350px;
     margin-bottom: 25px;
 }
 
