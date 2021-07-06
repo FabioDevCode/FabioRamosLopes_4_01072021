@@ -335,7 +335,7 @@ footer {
     align-items: center;
 }
 
-footer h4 {
+footer h3 {
     text-align: center;
     margin: 0 auto;
     font-size: 1.1em;
@@ -373,7 +373,7 @@ footer h4 {
     transform: scale(1.1);
 }
 
-.reseaux_icons h6 {
+.reseaux_icons h4 {
     font-size: 15px;
     font-weight: 600;
     margin-top: 15px;
@@ -562,7 +562,7 @@ section.contact_banniere {
 
 @media screen and (max-width: 515px) {
 
-    footer h4 {
+    footer h3 {
         margin-top: 15px;
         margin-bottom: 10px;
     }
