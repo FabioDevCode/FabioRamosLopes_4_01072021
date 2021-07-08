@@ -33,7 +33,187 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-/*---- Header ----*/
+/* ---- Ancien code à conserver ---- */
+
+.bg-banniere {
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.bg-presentation {
+    background-image: url("../img/image-de-presentation.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.b-parallax {
+    background-attachment: fixed;
+}
+
+/* Up garde */
+
+a[data-lightbox] {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+a[data-lightbox]:hover::before {
+    content: "Agrandir";
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    margin-left: -100px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, .6);
+    color: #FFF;
+    font-weight: 100;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+a[data-lightbox]:hover img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+
+#lightbox-modal {
+    display: flex;
+    align-items: center;
+}
+
+#lightbox-modal .modal-dialog {
+    width: 90%;
+    max-width: 780px;
+    margin: 0 auto 0;
+}
+
+#lightbox-modal .modal-dialog img {
+    max-height: 90vh;
+    margin: 0 auto;
+}
+
+.lightbox-caption {
+    padding: 20px;
+    color: #FFF;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 5px;
+}
+
+.close-lightbox {
+    color: #FFF;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 20;
+    background: rgba(0, 0, 0, .8);
+    border: none;
+    line-height: 30px;
+    padding: 0 9px 5px;
+    opacity: 0.8;
+}
+
+.close-lightbox:hover,
+.next-lightbox:hover,
+.prev-lightbox:hover {
+    opacity: 1.0;
+    color: #FFF;
+}
+
+.next-lightbox,
+.prev-lightbox {
+    font-size: 20px;
+    color: rgba(255, 255, 255, .9);
+    background: rgba(0, 0, 0, .7);
+    transition: all .2s ease-in-out;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.next-lightbox {
+    padding: 6px 8px 1px 13px;
+    right: 27px;
+}
+
+.prev-lightbox {
+    padding: 6px 13px 1px 10px;
+    left: 27px;
+}
+
+.snapshot-lb .modal-body {
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+
+.snapshot-lb .lightbox-caption {
+    padding: 0;
+    color: black;
+    background: none;
+}
+
+@media (max-width: 1024px) {
+    .bloc {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bloc.full-width-bloc,
+    .bloc-tile-2.full-width-bloc .container,
+    .bloc-tile-3.full-width-bloc .container,
+    .bloc-tile-4.full-width-bloc .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .b-parallax {
+        background-attachment: scroll;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .dropdown .dropdown a .caret {
+        float: none;
+        margin: 5px 0 0 10px;
+        border: 4px solid black;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        border-left-color: transparent;
+    }
+
+    .close-lightbox {
+        display: inline-block;
+    }
+    .blocsapp-device-iphone5 {
+        background-size: 216px 425px;
+        padding-top: 60px;
+        width: 216px;
+        height: 425px;
+    }
+    .blocsapp-device-iphone5 img {
+        width: 180px;
+        height: 320px;
+    }
+}
+
+/*---- Nouveau code ---- 
+---------- Header ----*/
 
 header {
     width: 100%;
