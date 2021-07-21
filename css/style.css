@@ -644,7 +644,7 @@ section.contact_banniere {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     font-size: 1em;
     font-weight: 600;
     height: 150px;

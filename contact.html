@@ -10,7 +10,6 @@
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	<link rel="stylesheet" type="text/css" href="style2.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	
 
@@ -62,27 +61,27 @@
 <div id="section_formulaire">
 
 	<div class="leformulaire">
-		<form id="form_1" novalidate success-msg="Votre message à bien été envoyé" fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, désolé pour le désagrément !">
+		<form id="form_1" novalidate>
 			<div class="form-group">
-				<label>
+				<label for="name">
 					Nom
 				</label>
 				<input id="name" class="form-control" placeholder="dupont" required />
 			</div>
 			<div class="form-group">
-				<label>
+				<label for="email">
 					Adresse email
 				</label>
 				<input id="email" class="form-control" placeholder="dupont@gmail.com" type="email" required />
 			</div>
 			<div class="form-group">
-				<label>
+				<label for="input_504">
 					Comment nous avez-vous connu ?
 				</label>
 				<input id="input_504" class="form-control" placeholder="internet, bouche à oreille, etc." required />
 			</div>
 			<div class="form-group">
-				<label>
+				<label for="message">
 					Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 				</label>
 				<textarea id="message" class="form-control" placeholder="écrivez juste ici..." required></textarea>
