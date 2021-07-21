@@ -483,6 +483,7 @@ blockquote {
 
 .portfolio_bloc_projet p {
     padding: 0 25px;
+    line-height: 23px;
 }
 
 /*---- Contact ----*/
